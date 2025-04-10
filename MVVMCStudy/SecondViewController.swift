@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SecondViewController.swift
 //  MVVMCStudy
 //
 //  Created by Sagar Amin on 3/11/25.
@@ -7,23 +7,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SecondViewController: UIViewController {
 
-    
-    weak var mainCoordinator: AppCoordinator!
+    weak var mainCoordinates: AppCoordinator!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
-        
     }
 
+
     @IBAction func onClickNext(_ sender: Any) {
-        
-        mainCoordinator.navigateToSecondScreen()
-        
+        mainCoordinates.navigateToThirdScreen()
     }
-    
 }
 

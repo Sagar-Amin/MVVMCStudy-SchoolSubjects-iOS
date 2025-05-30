@@ -1,7 +1,6 @@
-MVVMCStudy (School Subjects)
+MVVM, Coordinator Study (School Subjects)
 
-1. Description
-   Swift/UIKit project with storyboard
+1. Swift/UIKit project with storyboard
   
-2. Functions
+
   
